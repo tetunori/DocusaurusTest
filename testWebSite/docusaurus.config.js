@@ -1,17 +1,18 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'p5.toio',
+  tagline: 'The library of toio™ for p5.js',
   url: 'https://tetunori.github.io',
   baseUrl: '/DocusaurusTest/',
   favicon: 'img/favicon.ico',
   organizationName: 'tetunori', // Usually your GitHub org/user name.
   projectName: 'DocusaurusTest', // Usually your repo name.
   themeConfig: {
+    image: 'img/logo-a.png',
     navbar: {
-      title: 'My Site',
+      title: 'p5.toio',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'mini logo',
+        src: 'img/mini-logo.png',
       },
       links: [
         {
@@ -20,9 +21,8 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/tetunori/p5.toio',
           label: 'GitHub',
           position: 'right',
         },
@@ -35,29 +35,29 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Read Me',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: 'API Reference',
               to: 'docs/doc2/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Reference',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'toio™Official Site',
+              href: 'https://toio.io/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'toio™Core Cube Specification',
+              href: 'https://toio.github.io/toio-spec/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'p5.js',
+              href: 'https://p5js.org/',
             },
           ],
         },
@@ -65,17 +65,17 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'p5.toio articles on Qiita',
+              href: 'https://qiita.com/search?sort=&q=%22p5.toio%22',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/tetunori/p5.toio',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tetsunori NAKAYAMA.`,
     },
   },
   presets: [
@@ -88,14 +88,14 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/tetunori/p5.toio/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
