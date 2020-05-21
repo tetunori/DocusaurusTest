@@ -9,31 +9,32 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/easy.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        p5.toio was designed from the ground up to be easily integrated and
+        used to control toio™Core Cube in p5.js simply and quickly.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Focus on What You Create</>,
+    imageUrl: 'img/focus.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        p5.toio lets you focus on your creativity, and we&apos;ll do the chores. 
+        A lot of usuful APIs and utilities are included in this treasure box.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Powered by Web Bluetooth</>,
+    imageUrl: 'img/powered.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Since p5.toio was implemented based on Web Bluetooth, you can start programming toio™Core Cube 
+        by simply accessing the URL from your browser 
+        and it runs on many devices, including Windows, Mac and Android.
       </>
     ),
   },
