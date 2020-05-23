@@ -60,14 +60,16 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`toio lib for p5.js`}
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <div className="row">
-            <div className={classnames('col col--5 col--offset-1')}>
-              <h1 className="hero__title">{siteConfig.title}</h1>
-              <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <div className={classnames('col col--4')}>
+              <img className={styles.heroImg} src="img/logo.png" />
+            </div>
+            <div className={classnames('col col--6')}>
+              <h1 className="hero__title">Control toio™Core Cube in p5.js quickly, Focus on your creativity</h1>
               <div className={styles.buttons}>
                 <Link
                   className={classnames(
@@ -78,9 +80,6 @@ function Home() {
                   Get Started
                 </Link>
               </div>
-            </div>
-            <div className={classnames('col col--5')}>
-              <img className={styles.heroImg} src="img/logo-a.png" />
             </div>
           </div>
         </div>

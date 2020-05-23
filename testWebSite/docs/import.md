@@ -27,5 +27,5 @@ We can also use the non-uglified code.
    Go on to the next page [Basic Usage](https://toio.io/).
 
 :::note
-[p5.js Web Editor](https://editor.p5js.org/) support `WebBluetooth` but [OpenProcessing](https://www.openprocessing.org/) unfortunately does not support it so that this library also does not work😭.  
+[p5.js Web Editor](https://editor.p5js.org/) support `Web Bluetooth` but [OpenProcessing](https://www.openprocessing.org/) unfortunately does not support it so that this library also does not work😭.  
 :::

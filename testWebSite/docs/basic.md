@@ -7,7 +7,7 @@ sidebar_label: Basic Usage
 ## Search and Connect to toio™Core Cube
 First, call `P5tCube.connectNewP5tCube()` and receive `P5tCube` instance in Promise shown as below. 
 :::caution
-This library depends on `WebBluetooth` so that this API must be called in a **user-action function** like `mouseClicked()` or `keyPressed()` etc.  
+This library depends on `Web Bluetooth` so that this API must be called in a **user-action function** like `mouseClicked()` or `keyPressed()` etc.  
 :::
 
 ```js {4}
