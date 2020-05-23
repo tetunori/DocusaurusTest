@@ -69,7 +69,7 @@ function Home() {
               <img className={styles.heroImg} src="img/logo.png" />
             </div>
             <div className={classnames('col col--6')}>
-              <h1 className="hero__title">Control toio™Core Cube in p5.js quickly, Focus on your creativity</h1>
+              <h1 className="hero__title">Control toio™Core Cube in p5.js instantly</h1>
               <div className={styles.buttons}>
                 <Link
                   className={classnames(
