@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://tetunori.github.io',
   baseUrl: '/DocusaurusTest/',
   favicon: 'img/favicon.ico',
-  organizationName: 'tetunori', // Usually your GitHub org/user name.
-  projectName: 'DocusaurusTest', // Usually your repo name.
+  organizationName: 'tetunori',
+  projectName: 'DocusaurusTest',
   themeConfig: {
     image: 'img/logo-a.png',
     navbar: {
@@ -87,19 +87,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'intro',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/tetunori/p5.toio/',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
