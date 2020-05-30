@@ -29,6 +29,6 @@ jobs:
     - name: Installation
       run: cd testWebsite && yarn
     - name: Docusaurus Build
-      run: yarn run build
+      run: cd testWebsite && yarn run build
       env:
         CI: true
